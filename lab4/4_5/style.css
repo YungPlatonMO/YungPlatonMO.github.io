@@ -8,7 +8,7 @@ html {
 }
 
 .menu li {
-    width: 250px;
+    width: 450px;
     list-style-type: none;
     background: #10285aca;
     position: relative;
@@ -18,10 +18,11 @@ html {
     color: #ffffff;
     text-decoration: #ffffffe6;
     display: block;
+    text-size-adjust: 19;
     text-align: center;
     padding: 0 10px;
-    height: 35px;
-    line-height: 35px;
+    height: 55px;
+    line-height: 55px;
     transition: all .75s;
 }
 
