@@ -1,0 +1,15 @@
+#left{
+	background:#ccf;
+    width: 200px;
+    float: left;
+}
+#right{
+	background:#fcc;
+    width: 200px;
+    float: right;
+}
+#center{
+    background:#cfc;
+    margin-left: 210px; 
+    margin-right: 210px; 
+}

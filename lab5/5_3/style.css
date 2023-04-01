@@ -1,0 +1,22 @@
+.weed{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#left{
+	background:#ccf;
+    width: 200px;
+    display: inline-block;
+}
+
+#right{
+	background:#fcc;
+    width: 200px;
+    display: inline-block;
+}
+
+#center{
+    background:#cfc;
+    width: 600px;
+    display: inline-block; 
+}

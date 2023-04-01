@@ -1,0 +1,23 @@
+.weed{
+    display: flex;
+    align-content: center;
+}
+
+#left{
+	background:#ccf;
+    width: 200px;
+    display: flex;
+}
+
+#right{
+	background:#fcc;
+    width: 200px;
+    display: flex;
+
+}
+
+#center{
+    background:#cfc;
+    width: 600px;
+    display: flex; 
+}

@@ -1,0 +1,23 @@
+.weed{
+    display: grid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#left{
+	background:#ccf;
+    width: 200px;
+    display: grid;
+}
+
+#right{
+	background:#fcc;
+    width: 200px;
+    display: grid;
+}
+
+#center{
+    background:#cfc;
+    width: 600px;
+    display: grid; 
+}
