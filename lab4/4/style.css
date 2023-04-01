@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    text-transform: capitalize;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+  
+.open .icon {
+    position: relative;
+}
+  
+.open .icon::before{
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 5px;
+    height: 4px;
+    background: #111;
+    box-shadow: 0 0 0 2.3px #fff, 0 0 0 4px #111;
+}
+
+.closed .icon {
+    position: relative;
+}
+
+.closed .icon::before{
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 5px;
+    height: 4px;
+    background: #ffffff;
+    box-shadow: 0 0 0 2.3px #fff, 0 0 0 4px #111;
+}
