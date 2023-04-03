@@ -1,0 +1,44 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left {
+    float: left;
+    width: 200px;
+    height: 300px;
+    background: url(left.png);
+    list-style-type: none;
+    list-style-image: url(plus.png); 
+}
+
+#right{
+    float: right;
+    width: 200px;
+    background: url(right.png);
+    height: 300px;
+}
+
+#center{
+    float: none;
+    margin: 0 200px;
+    padding: 0 25px;
+    margin-top: 10px; /*почему только тут достаточно поставить margin и lest & right не конфликутют с center? */
+}
+
+#header{
+    height: 300px;
+    float: none;
+    background-color: #ceddef;
+}
+
+#footer{
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    background-color: #dcccef;
+}
