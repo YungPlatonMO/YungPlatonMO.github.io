@@ -10,8 +10,7 @@
     height: 300px;
     background: url(left.png);
     list-style-type: none;
-    list-style-image: url(plus.png);
-
+    list-style-image: url(plus.png); 
 }
 
 #right{
@@ -22,19 +21,21 @@
 }
 
 #center{
+    float: none;
     margin: 0 200px;
-    padding: 0 50px;
-    margin-top: 300px; /*почему только тут достаточно поставить margin и lest & right не конфликутют с center? */
+    padding: 0 25px;
+    margin-top: 10px; /*почему только тут достаточно поставить margin и lest & right не конфликутют с center? */
 }
 
-#end{
-    clear: left, right;
+#header{
+    height: 300px;
+    float: none;
+    background-color: #ceddef;
 }
 
-#inner{
-    
-}
-
-#outer{
-
+#footer{
+    margin-block-start: 255px;
+    height: 300px;
+    float: none;
+    background-color: #dcccef;
 }
