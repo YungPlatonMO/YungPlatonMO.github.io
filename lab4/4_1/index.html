@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="ru">
-<link rel="stylesheet"  href="style.css">
 <head>
 	<meta charset="UTF-8">
 	<title>Оформление вертикального меню</title>
 	<style>
 		.menu {
-			width:15%;
-            height: 20%;
+			width:200px;
 			background:#369;
-		}
-				
-		.menu li {
-            margin: 8px;
+			margin: 40px;
+			padding: 5px;
 		}
 		
-		.menu li a {            
-            background-color: white;
-            display: flex;
-            text-transform: uppercase;
-        
+		.menu ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.menu li {
+			padding: 5px;
+		}
+		
+		.menu li a {
+			display: block;
+			padding: 5px;
+			text-decoration: none;
+			color: #369;
+			border: 1px solid whitesmoke;
+			border-bottom: none;
+			background-color: whitesmoke;
+			text-transform: uppercase;
 		}
 		
 		.menu li a:hover {
-            background-color: rgb(230, 233, 247);
-        }
+			background-color: aqua;
+			color: #369;
+		}
 	</style>
 </head>
 <body>
 	<nav class="menu">
-		<ul style="list-style-type: none">
-			<li><a href="#"><font color="blue">Фильмы</font></a></li>
-			<li><a href="#"><font color="blue">Музыка</font></a></li>
-			<li><a href="#"><font color="blue">Софт</font></a></li>
-			<li><a href="#"><font color="blue">Игры</font></a></li>
+		<ul>
+			<li><a href="#">Фильмы</a></li>
+			<li><a href="#">Музыка</a></li>
+			<li><a href="#">Софт</a></li>
+			<li><a href="#">Игры</a></li>
 		</ul>
 	</nav>
 </body>

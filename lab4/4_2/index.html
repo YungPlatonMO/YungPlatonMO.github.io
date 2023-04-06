@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="ru">
-<link rel="stylesheet" href="style.css">
 <head>
-	<meta charset="UTF-8">
-	<title>Оформление вертикального меню</title>	
+		<meta charset="UTF-8">
+		<title>Оформление вертикального меню</title>
+		<style>
+			html {
+				background: #f0f0f0;
+			}
+			
+			.menu {
+				width: 250px;
+				background: #fff;
+			}
+			
+			.menu ul {
+				list-style-type: none;
+            }
+			
+			.menu li {
+                list-style-image: url(minus.gif);
+			}
+			
+			.menu li a {
+			    text-decoration: underline;
+			    color: #369;
+                
+			}
+			
+			.menu li a:hover {
+                background-color: white;
+			    color: #369;
+			}
+			
+			.menu li ul {
+                padding-bottom: 10px;
+                padding-left: 10px;
+			}
+			
+			.menu li li {
+                list-style-image: url(point.gif);
+			}
+	</style>
 </head>
 <body>
 	<nav class="menu">
 		<ul>
-			<li><a href="#"><font color="blue">Фильмы</font></a>
+			<li><a href="#">Фильмы</a>
 				<ul>
-					<li><a href="#"><font color="blue">Экшн</font></a></li>
-					<li><a href="#"><font color="blue">Сериалы</font></a></li>
-					<li><a href="#"><font color="blue">Семейные</font></a></li>
+					<li><a href="https://www.kinopoisk.ru/lists/movies/top_100_action_by_time_out/">Экшн</a></li>
+					<li><a href="https://www.kinopoisk.ru/lists/movies/genre--romance/">Мелодрамы</a></li>
+					<li><a href="https://www.kinopoisk.ru/lists/movies/series-top250/">Сериалы</a></li>
+					<li><a href="https://www.kinopoisk.ru/lists/movies/genre--family/?b=films">Семейные</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><font color="blue">Музыка</font></a>
+			<li><a href="#">Музыка</a>
 				<ul>
-					<li><a href="#"><font color="blue">Классика</font></a></li>
-					<li><a href="#"><font color="blue">Джаз</font></a></li>
-					<li><a href="#"><font color="blue">Рок</font></a></li>
-					<li><a href="#"><font color="blue">Грандж</font></a></li>
+					<li><a href="https://www.culture.ru/materials/120807/muzykalnaya-podborka-top-100-v-klassicheskoi-muzyke">Классика</a></li>
+					<li><a href="https://music.apple.com/ru/album/the-very-best-of-jazz-50-unforgettable-tracks-remastered/539446930">Джаз</a></li>
+					<li><a href="https://ruo.morsmusic.org/playlist/3">Рок</a></li>
+					<li><a href="https://rockcult.ru/po/50-best-grunge-songs/">Грандж</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><font color="blue">Софт</font></a>
+			<li><a href="#">Софт</a>
 				<ul>
-					<li><a href="#"><font color="blue">Графика</font></a></li>
-					<li><a href="#"><font color="blue">3D-моделирование</font></a></li>
-					<li><a href="#"><font color="blue">Машинопись</font></a></li>
-					<li><a href="#"><font color="blue">Переводчики</font></a></li>
+					<li><a href="https://lifehacker.ru/besplatnye-graficheskie-redaktory/">Графика</a></li>
+					<li><a href="https://gb.ru/posts/10-populyarnyh-programm-dlya-3d-modelirovaniya">3D-моделирование</a></li>
+					<li><a href="https://design.tutsplus.com/ru/articles/20-best-classic-typewriter-fonts-with-old-vintage-machine-styles--cms-31463">Машинопись</a></li>
+					<li><a href="https://zoom.cnews.ru/publication/item/1155">Переводчики</a></li>
 				</ul>
 			</li>
-			<li><a href="#"><font color="blue">Игры</font></a>
+			<li><a href="#">Игры</a>
 				<ul>
-					<li><a href="#"><font color="blue">РПГ</font></a></li>
-					<li><a href="#"><font color="blue">Шутеры</font></a></li>
-					<li><a href="#"><font color="blue">Пасьянсы</font></a></li>
+					<li><a href="https://www.igromania.ru/games/all/rpg/">РПГ</a></li>
+					<li><a href="https://gametarget.ru/list/shutery-s-elementami-rpg/">Шутеры</a></li>
+					<li><a href="http://life-games.net/index/pasjansy/0-145">Пасьянсы</a></li>
 				</ul>
 			</li>
 		</ul>
