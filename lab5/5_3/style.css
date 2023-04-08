@@ -1,22 +1,26 @@
-.weed{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-#left{
-	background:#ccf;
+#left {
+    background: #ccf;
     width: 200px;
-    display: inline-block;
 }
 
-#right{
-	background:#fcc;
+#right {
+    background: #fcc;
     width: 200px;
-    display: inline-block;
 }
 
-#center{
-    background:#cfc;
-    width: 600px;
-    display: inline-block; 
+#center {
+    width: 400px;
+    background: #cfc;
+
+}
+
+.container div {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.container {
+    font-size: 0;
+    min-width: 800px;
 }
