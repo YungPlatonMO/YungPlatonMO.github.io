@@ -4,41 +4,66 @@
     clear: both;
 }
 
-#left {
-    float: left;
-    width: 200px;
-    height: 300px;
-    background: url(left.png);
-    list-style-type: none;
-    list-style-image: url(plus.png); 
+html,
+body {
+    height: 100%;
 }
 
-#right{
-    float: right;
-    width: 200px;
-    background: url(right.png);
-    height: 300px;
-}
-
-#center{
-    float: none;
-    margin: 0 200px;
-    padding: 0 25px;
-    margin-top: 10px; /*почему только тут достаточно поставить margin и lest & right не конфликутют с center? */
-}
-
-#header{
-    height: 300px;
-    float: none;
-    background-color: #ceddef;
-}
-
-#footer{
-    left: 0;
+#header {
+    background: #9ACEEB;
     height: 100px;
-    width: 100%;
+    background-size: cover;
+}
+
+#left {
+    background-image: url("left.png");
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#left ul li {
+    list-style-image: url("plus.png");
+}
+
+#right {
+    padding-left: 20px;
+    background-image: url("right.png");
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+#center {
+    padding-left: 10px;
+    margin: 0 200px;
+    float: none;
+}
+
+#inner {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#outer {
+    padding-bottom: 90px;
+}
+
+#container {
+    position: relative;
+    min-height: 100%;
+}
+
+#footer {
+    background: pink;
     background-size: cover;
     position: absolute;
+    left: 0;
     bottom: 0;
-    background-color: #dcccef;
+    width: 100%;
+    height: 100px;
+}
+
+#end {
+    clear: both;
 }
