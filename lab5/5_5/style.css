@@ -1,23 +1,18 @@
-.weed{
-    display: grid;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#left{
-	background:#ccf;
+#left {
+    background: #ccf;
     width: 200px;
-    display: grid;
 }
 
-#right{
-	background:#fcc;
+#right {
+    background: #fcc;
     width: 200px;
-    display: grid;
 }
 
-#center{
-    background:#cfc;
-    width: 600px;
-    display: grid; 
+#center {
+    background: #cfc;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
