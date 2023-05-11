@@ -1,19 +1,26 @@
-#left{
-	background:#ccf;
+#left {
+    background: #ccf;
     width: 200px;
 }
 
-#right{
-	background:#fcc;
-    width:200px;
+#right {
+    background: #fcc;
+    width: 200px;
 }
 
-#center{
-    width: 600px;
-	background:#cfc;
+#center {
+    width: 400px;
+    background: #cfc;
+
 }
 
-body{
-    display: flex;
-    justify-content: center;
+.container div {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.container {
+    font-size: 0;
+    min-width: 800px;
 }
