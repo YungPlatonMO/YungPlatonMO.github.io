@@ -1,68 +1,97 @@
+
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nomer 5</title>
     <link rel="stylesheet" href="ish.css">
-</head>
-<body>
-<h1>Форма регистрации пользователя</h1>
-<form action="LuciyL.github.io/test.txt" enctype="text/plain" method="post"> 
-<table>
-    <tr>
-        <td><label>E-mail:</label></td>
-        <td><input type="email" name="email" required placeholder="Введите e-mail"></td>
-    </tr>
-    <tr>
-        <td><label>Пароль:</label></td>
-        <td><input type="password" name="password" required placeholder="Введите пароль"></td>
-    </tr>
-    <tr>
-        <td><label>Пол</label></td>
-        <td><label><input type="radio" name="gen" value="man" checked> Мужской</label> 
-            <label><input type="radio" name="gen" value="wom"> Женский</label> </td>
-    </tr>
-    <tr>
-        <td><label>Год рождения</label></td>
-        <td>
-            <select name="year">
-                <option>2000</option>
-                <option>2001</option>
-                <option>2002</option>
-                <option>2003</option>
-                <option>2004</option>
-                <option>2005</option>
-                <option>2006</option>
-                <option>2007</option>
-                <option>2008</option>
-                <option>2009</option>
-                <option>2010</option>
-                <option>вчера</option>
-            </select>-й 
-        </td>
-    </tr>
-    <tr>
-        <td><label>Я знаю</label></td>
-        <td>
-            <p><label><input type="checkbox" name="lang" value="ru" checked>Русский</label></p>
-            <p><label><input type="checkbox" name="lang" value="es" >Испаснский</label></p>
-            <p><label><input type="checkbox" name="lang" value="ge" >Немецкий</label></p>
-            <p><label><input type="checkbox" name="lang" value="en" >Английский</label></p>
-            <p><label><input type="checkbox" name="lang" value="ch" >Китайский</label></p>
-        </td>
-    </tr>
-    <tr>
-        <td><label>Обо мне</label></td>
-        <td><textarea rows="5" cols="30" name="inf" placeholder="Напишите коротко о себе"></textarea></td>
-    </tr>
-    <tr>
-        <<td></td>
-        <td><button type="submit"> Готово</button>
-        <button type="reset"> Очистить</button></td>
-            </tr>
-</table>
+
+    <title>Форма </title>
+
+    
+    <style>
+        table {
+            width: 400px;
+            border: 0px solid rgb(199, 199, 207);
+            margin: 20px;
+            float: left;
+        }
+        td, th {
+            border: 0px solid rgb(213, 209, 209);
+            padding: 10px;
+        }
+        </style>
+        </head>
+        <body>
+            <form action="#">
+            <table>
+                <caption><h2>Форма для регистрации</h2></caption>
+                <tbody>
+                <tr>
+                    <th><label for="email">E-mail</label> </th>
+                    <td><input type="email" id="email" name="st_email" required  ></td>
+                </tr>
+                <tr>
+                    <th><label for="name">Пароль</label></th>
+                    <td><input type="password" id="name" name="st_password"></td>
+                </tr>
+                <tr>
+                    <th>Пол</th>
+                    <td><label><input type="radio" id="mg" name="st_mg" >Мужчина</label>
+                        <label><input type="radio" id="mg1" name="st_mg" >Женщина</label></td>  
+                </tr>
+                <tr>
+                    <th>Год рождения</th>
+                    <td><select name="year" id="year">
+                        <option value="1981">1981</option>
+                        <option value="1981">1982</option>
+                        <option value="1981">1983</option>
+                        <option value="1981">1984</option>
+                        <option value="1981">1985</option>
+                        <option value="1981">1986</option>
+                        <option value="1981">1987</option>
+                        <option value="1981">1988</option>
+                        <option value="1981">1989</option>
+                        <option value="1981">1990</option>
+                        <option value="1981">1991</option>
+                        <option value="1981">1992</option>
+                        <option value="1981">1993</option>
+                        <option value="1981">1994</option>
+                        <option value="1981">1995</option>
+                        <option value="1981">1996</option>
+                        <option value="1981">1997</option>
+                        <option value="1981">1998</option>
+                        <option value="1981">1999</option>
+                        <option value="1981">2000</option>
+                        <option value="1981">2001</option>
+                        <option value="1981">2002</option>
+                        <option value="1981">2003</option>
+                        <option value="1981">2004</option>
+                    
+                    </select></td>
+                
+                </tr>
+                <tr>
+                    <th>Я знаю</th>
+                    <td><label><input type="checkbox" id="language" name="st_language" checked>Русский</label><br>
+                        <label><input type="checkbox" id="language1" name="st_language">Испанский</label><br>
+                        <label><input type="checkbox" id="language2" name="st_language">Немецкий</label><br>
+                        <label><input type="checkbox" id="language3" name="st_language">Английский</label><br>
+                        <label><input type="checkbox" id="language4" name="st_language">Китайский</label><br></td>
+                </tr>
+                <tr>
+                    <th><label for="bio">Обо мне</label></th>
+                    <td><textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button type="submit"> Готово</button>
+                        <button type="reset"> Очистить</button></td>
+                </tr>
+                </tbody>
+            </table>
 </form>
 </body>
 </html>
