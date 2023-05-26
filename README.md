@@ -3,7 +3,6 @@ Gib die Hoffnung auf, ihr, die ihr hier eintretet!
 
 
 ┈┈╱▔▔▔▏┈┈▕╲┈╱▏┈┈
-
 ┈╱╱▔▔▔┈┈┈╱┳▔┳╲┈┈
 ┈▏▏┈┈┈┈┈┈▏┈▅┈▕┈┈
 ┈╲╲▂▂▂▂▂╱╲╱┻╲╱┈┈
