@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<body>
+  <script>
+    "use strict";
+        let book1={};
+        book1.title = "1984";
+        book1.pubYear = 1949;
+        book1.price = 460;
+        book1.show = function(){
+            console.log(book1.title +" - "+ book1.price);
+        }
+
+        function showBook(){
+            console.log(this.title +' - '+ this.price);
+        }
+           
+        
+        let book2={
+            title: "Sapiens: Краткая история человечества",
+            pubYear: 2011,
+            price: 730,
+            show: showBook
+        };
+
+
+        book1.show();
+        console.log("\n");
+		book2.show();
+    </script>
+</body>
+</html>
+</script>
+</body>
+
+</html> 
