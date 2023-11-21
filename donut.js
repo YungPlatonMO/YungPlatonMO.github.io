@@ -41,7 +41,7 @@ render_frame(float A, float B) {
         - circley*cosA*sinB; 
       float y = circlex*(sinB*cosphi - sinA*cosB*sinphi)
         + circley*cosA*cosB;
-      float z = K2 + cosA*circlex*sinphi + circley*sinA;
+      float_z = K2 + cosA*circlex*sinphi + circley*sinA;
       float ooz = 1/z;  // "one over z"
       
       // x and y projection.  note that y is negated here, because y
