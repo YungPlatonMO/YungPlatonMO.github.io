@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(0deg, #08b46a 0%, #cce989 100%);
+    display: flex;
+    justify-items: center;
+}
+
+.conteiner {
+    margin: 30px 200px auto 200px
+    
+}
+#left {
+    width: 600px;
+    float: left;
+    min-height: 1000px;
+    margin-right: 20px;
+
+}
+
+#right {
+    width: 750px;
+    min-height: 1000px;
+    margin-left: 50%;
+
+}
+
+ol {
+    list-style-type: none;
+
+}
+
+    h1 {
+    margin: auto 0;
+}
