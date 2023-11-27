@@ -1,26 +1,17 @@
 body {
     background: linear-gradient(0deg, #08b46a 0%, #cce989 100%);
     display: flex;
-    justify-items: center;
+    justify-items: self-end;
 }
 
 .conteiner {
     margin: 30px 200px auto 200px
-    
-}
-#left {
-    width: 600px;
-    float: left;
-    min-height: 1000px;
-    margin-right: 20px;
 
 }
 
-#right {
-    width: 750px;
-    min-height: 1000px;
-    margin-left: 50%;
-
+.html-css {
+    width: 300px;
+    background: green;
 }
 
 ol {
