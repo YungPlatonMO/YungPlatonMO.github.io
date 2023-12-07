@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  size: 100%;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.list-reset {margin: 0;padding: 0;list-style-type: none;}/* Сбросил список */
+
+.section-title {
+  margin-top: 70px;
+  margin-bottom: 0;
+  color: #333;
+  font-style: normal;
+  line-height: normal;
+}
+
+/* ----- */
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.top-header {
+  display: flex;
+  align-items: center;
+  height: 55px;
+}
+
+.top-header-telephone {
+  margin-left: 40px;
+}
+
+.top-header-log-in {
+  margin-left: auto;
+}
+
+
+
+.nav-header {
+  display: flex;
+  margin-top: 30px;
+  height: 70px;
+}
+
+.nav-header-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-header-item {
+  margin-left: 45px;
+}
+
+.nav-header-btn {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.button-1 {
+  line-height: 42px;
+  margin-right: 40px;
+}
+
+.button-2 {
+  line-height: 42px;
+  margin-right: 45px;
+}
+
+
+/* Special */
+
+
+.section-content {
+  display: flex;
+  height: auto;                  /* Дальше надо менять на значение */
+  justify-content: start;
+}
+
+.special-block-card {
+  margin-top: 25px;
+  width: 573px;
+}
+
+.special-block-left {
+  margin-right: 24px;
+}
+
+.special-block-rignt {
+  margin-left: auto;
+}
+
+
+/* About us */
+.about-us-block {
+  margin-top: 20px;
+  width: 885px;
+  height: auto;
+}
+
+
+/* Services */
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.services-item {
+  display: flex;
+  width: 49%;
+}
+
+.services-item-1, .services-item-3 {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.services-item-2, .services-item-4 {
+  margin-top: 20px;
+}
+
+
+/* Advantage */
+.adv-list-item {
+  width: 276px;
+  margin-top: 20px;
+  outline: 1px solid red;
+  border-radius: 15px;
+}
+
+.adv-list-item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.adv-list-info {
+  padding: 116px 42px 32px 45px;
+}
+
+
+/* Hotels */
+.hotel-list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotel-item {
+  display: flex;
+  width: 32%;
+  align-items: center;
+  margin-top: 20px;
+
+  outline: 1px solid red;
+  border-radius: 15px;
+}
+
