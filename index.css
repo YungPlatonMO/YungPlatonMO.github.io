@@ -1,24 +1,23 @@
 body {
     background: linear-gradient(0deg, #08b46a 0%, #cce989 100%);
     display: flex;
-    justify-items: self-end;
+    justify-content: space-between;
 }
 
 .conteiner {
-    margin: 30px 200px auto 200px
-
+    margin-right: 200px;
+    margin-left: 200px;
+    max-width: 1520px;
 }
 
 .html-css {
-    width: 300px;
-    background: green;
 }
+
 
 ol {
     list-style-type: none;
-
 }
 
-    h1 {
+h1 {
     margin: auto 0;
 }
