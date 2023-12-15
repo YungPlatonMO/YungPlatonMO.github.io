@@ -1,3 +1,10 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 200px 800px;
+  size: 150%;
+}
+
 .main-content {
   display: flex;
   flex-direction: column;
