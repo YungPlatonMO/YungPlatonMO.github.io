@@ -300,9 +300,6 @@ body {
 }
 
 .services-link-icon {
-  display: inline-block;
-  width: 16px;
-  height: 1px;
   stroke-width: 2px;
   stroke: #C93;
   background-image: url('../img/2/more.svg');
