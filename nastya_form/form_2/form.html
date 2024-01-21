@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="index.js">
+    <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h3 class="next-title" style="padding-top: 35px;">Анамнез</h3>
+    <ul class="list flex">
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Табакокурение</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Наследственные заболевания</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Повышенная температура</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Нарушение сознания</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Падение в обморок</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+      <li class="list-item">
+        <div class="list-content">
+          <label class="list-label">Состояние стабильное</label>
+          <hr>
+          <div class="flex">
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Да</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет</label>
+            <input checked type="checkbox" name="da" class="list-input-chek">
+            <label for="da" class="list-input-text">Нет данных</label>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+    <h3 class="next-title" style="padding-top: 15px;">Текущее заболевание</h3>
+    <div class="diagnoz">
+      <label for="story" class="list-label" style="display: block; margin-bottom: 10px;">Добавить диагноз:</label>
+      <textarea class="textarea" name="story" id="story" cols="100" rows="8">Укажите какие симптомы у человека, опишите его общее состояние</textarea>
+    </div>
+    <div class="flex">
+      <div class="list-content">
+      <label class="list-label">ФИО врача</label> <br />
+      <input required type="text" name="text" placeholder="Иванов Иван Иванович" class="list-input">
+    </div>
+    <div class="list-content" style="margin-left: 320px;">
+      <label class="list-label">Дата</label> <br />
+      <input required type="date" name="text" placeholder="" class="list-input">
+    </div>
+    </div>
+
+
+
+
+    <div style="align-items: center;">
+      <a href="forma_2/form.html"><button type="button" class="btn">Отправить на оценку</button></a>
+    </div>
+
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+@font-face {font-family: 'Muller';src: local('Muller-Regular'),url('fonts/MullerRegular.woff2') format('woff2'),url('fonts/MullerRegular.woff') format('woff');font-display: swap;font-weight: 400;font-style: normal;}/* Подключил шрифты */
+
+@font-face {font-family: 'Muller';src: local('Muller-Medium'),url('fonts/MullerMedium.woff2') format('woff2'),url('fonts/MullerMedium.woff') format('woff');font-display: swap;font-weight: 500;font-style: normal;}/* Подключил шрифты */
+
+@font-face {font-family: 'Muller';src: local('Muller-Bold'),url('fonts/MullerBold.woff2') format('woff2'),url('fonts/MullerBold.woff') format('woff');font-display: swap;font-weight: 700;font-style: normal;}/* Подключил шрифты */
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  size: 100%;
+}
+
+html {
+  font-family: 'Muller', sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.main-title {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 900;
+  color: rgb(207, 81, 81);
+  padding-top: 28px;
+}
+
+.next-title {
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.806);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.list {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list-item {
+  width: 380px;
+  align-items: center;
+  outline: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-top: 15px;
+
+}
+
+.list-content {
+  padding: 15px 10px;
+  color: rgba(0, 0, 0, 0.937);
+}
+
+.list-label {
+  margin-left: 5px;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.list-input {
+  height: 38px;
+  width: 350px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  font-size: 18px;
+  border: none;
+  outline: 2px solid rgba(93, 37, 37, 0.696);
+  border-radius: 8px 8px 0 0;
+}
+
+.btn {
+  border: none;
+  color: rgba(24, 11, 5, 0.836);
+  background-color: #ffffffc1;
+  outline: 2px solid rgba(0, 0, 0, 0.482);
+  border-radius: 10px 10px 0 10px;
+  width: auto;
+  height: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 400px 25px 470px;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px;
+}
