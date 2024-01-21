@@ -1,8 +1,8 @@
-@font-face {font-family: 'Muller';src: local('Muller-Regular'),url('../fonts/MullerRegular.woff2') format('woff2'),url('fonts/MullerRegular.woff') format('woff');font-display: swap;font-weight: 400;font-style: normal;}/* Подключил шрифты */
+@font-face {font-family: 'Muller';src: local('Muller-Regular'),url('fonts/MullerRegular.woff2') format('woff2'),url('fonts/MullerRegular.woff') format('woff');font-display: swap;font-weight: 400;font-style: normal;}/* Подключил шрифты */
 
-@font-face {font-family: 'Muller';src: local('Muller-Medium'),url('../fonts/MullerMedium.woff2') format('woff2'),url('fonts/MullerMedium.woff') format('woff');font-display: swap;font-weight: 500;font-style: normal;}/* Подключил шрифты */
+@font-face {font-family: 'Muller';src: local('Muller-Medium'),url('fonts/MullerMedium.woff2') format('woff2'),url('fonts/MullerMedium.woff') format('woff');font-display: swap;font-weight: 500;font-style: normal;}/* Подключил шрифты */
 
-@font-face {font-family: 'Muller';src: local('Muller-Bold'),url('../fonts/MullerBold.woff2') format('woff2'),url('fonts/MullerBold.woff') format('woff');font-display: swap;font-weight: 700;font-style: normal;}/* Подключил шрифты */
+@font-face {font-family: 'Muller';src: local('Muller-Bold'),url('fonts/MullerBold.woff2') format('woff2'),url('fonts/MullerBold.woff') format('woff');font-display: swap;font-weight: 700;font-style: normal;}/* Подключил шрифты */
 
 * {
   box-sizing: border-box;
@@ -34,267 +34,162 @@ p {
   margin: 0;
 }
 
-.box-shadow {
-  box-shadow: 0 0 25px 8px #090b6f85;
-}
-
-.container {
-  max-width: 1100px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-  border-radius: 15px;
-
-}
-
-.header-item {
-  background-image: url("https://i.pinimg.com/736x/5d/73/ea/5d73eaabb25e3805de1f8cdea7df4a42--tumblr-backgrounds-iphone-phone-wallpapers-iphone-wallaper-tumblr.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-  display: flex;
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
-  background: #5961f9ad;
-  overflow: hidden;
-  box-sizing: border-box;
-  border-radius: 15px 15px 0 0;
-}
-
-.header-name {
-  font-size: 3vmax;
-  line-height: 1;
-  font-weight: 900;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  margin-left: 50px;
-  color: #fff;
-}
-
-.main-list-item {
-  list-style: none;
-  margin-top: 60px;
-  margin-bottom: 0;
-}
-
-.main-list-name {
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
-  padding-left: 30px;
-  line-height: 0.8;;
-  font-weight: 600;
-  color: #03063f8f;
-  margin-bottom: 10px;
-}
-
-.main-form {
-  margin-top: 0;
-  border: 2px solid #5961f9ad;
-  border-radius: 50px;
-  height: 50px;
-  width: 360px;
-  size: 100%;
-  font-family: "Open Sans", sans-serif;
-  font-size: 24px;
-  padding-left: 30px;
-  box-shadow: rgba(11, 36, 111, 0.416) 3px 2px;
-}
-
-.main-ul {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 0 0;
-  padding: 0 0;
-  justify-content: space-around;
-}
-
-.overlay-1 {
-  width: 100%;
-  height: 100%;
-  /* background: #f7effecd; */
-  overflow: hidden;
-  box-sizing: border-box;
-  border-radius: 0 0 15px 15px;
-}
-
-.politic {
-  margin: 50px 1px 20px 50px;
-}
-
-.btn {
-  float: right;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  margin-right: 30px;
-  color: #fff;
-  font-size: 16px;
-  padding: 12px 35px;
-  border-radius: 50px;
-  display: inline-block;
-  border: 0;
-  outline: 0;
-  box-shadow: 0px 4px 20px 0px #49c628a6;
-  background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
-}
-
-
-
-
-
-
-
-
-.services-list {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  background-color: #fff;
-  justify-content: space-between;
+body {
+  background-color: #f1f1f1;
   align-items: center;
 }
 
-.services-title {
-  margin: 0;
-  padding-left: 55px;
-  font-size: 38px;
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #fff;
+}
+
+.main-title {
+  font-size: 36px;
+  line-height: 1;
+  font-weight: 900;
+  color: rgb(207, 81, 81);
+  padding-top: 28px;
+}
+
+.next-title {
+  font-size: 28px;
   line-height: 1;
   font-weight: 700;
-  color: #6060a5;
-  background-color: #fff;
+  color: rgba(64, 24, 19, 0.806);
+  text-align: center;
   margin-bottom: 15px;
 }
 
-.services-item-left {
-  display: flex;
-  margin-left: 130px;
-  margin-top: 25px;
-  width: 400px;
-  min-height: 250px;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  background-color: #fff;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
+.list {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 35px;
 }
 
-.services-item-right {
-  display: flex;
-  margin-right: 130px;
-  margin-top: 25px;
-  width: 400px;
-  min-height: 250px;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  background-color: #fff;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
+
+
+.list-content {
+  padding: 15px 10px;
+  color: rgba(0, 0, 0, 0.937);
 }
 
-.services-item-info {
-  margin-top: auto;
-  flex-direction: column;
-  background-color: #f5f4f2;
-  border-radius: 15px;
+.list-label {
+  margin-left: 5px;
+  font-size: 22px;
+  line-height: 1;
 }
 
-.services-link {
-  color: rgb(61, 64, 203);
+.list-input {
+  height: 38px;
+  width: 350px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  padding-left: 8px;
+  font-size: 18px;
+  border: none;
+  outline: 2px solid rgba(93, 37, 37, 0.696);
+  border-radius: 8px 8px 0 0;
+}
+
+.list-input-chek {
+  width: 20px;
+  margin-left: 5px;
+}
+
+
+
+
+.list-input-text {
+  margin-top: 6px;
+  margin-bottom: 8px;
   font-size: 20px;
-  font-style: normal;
+  padding-right: 5px;
+}
+
+.btn {
+  width: auto;
+  border: none;
+  color: rgba(25, 16, 95, 0.908);
+  background-color: #89dde28e;
+  outline: 2px solid rgba(72, 178, 196, 0.65);
+  border-radius: 10px 10px 0 10px;
+  width: auto;
+  height: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 30px 342px 25px 443px;
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px;
+}
+
+.diagnoz {
+  margin-left: 8px;
+}
+
+.textarea {
+  padding: 10px;
+  max-width: 100%;
+  font-size: 18px;
   font-weight: 500;
-  line-height: 2;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.svg {
+  width: 35px;
+  height: auto;
+}
+
+.list-item {
+  width: auto;
+  align-items: center;
+  outline: 1px solid rgba(0, 0, 0, 0.128);
+  border-radius: 10px 15px 10px 0;
+  margin-top: 18px;
+
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #47c3d95e;
+}
+
+.list-p {
+  text-align: left;
+  font-size: 24px;
+  line-height: 1;
+  margin-top: 6px;
   margin-left: 10px;
 }
 
-.services-link-icon {
-  stroke-width: 2px;
-  stroke: #C93;
-  background-image: url('../img/2/more.svg');
-  background-repeat: no-repeat;
-  background-position: right;
-  padding-right: 17px;
-  margin-left: 10px;
+.list-content {
+  width: auto;
 }
 
-.services-paragraph {
-  margin: 0 10px 15px 15px;
-  margin-bottom: auto;
-  max-width: 400px;
-  min-height: 64px;
-  color: #000000bd;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2;
+.pow {
+  align-items: center;
+  min-width: 240px;
+  min-height: 40px;
+  padding: 10px 15px;
+  margin-left: auto;
+  outline: 1px solid rgba(85, 10, 10, 0.244);
+  border-radius: 20px;
+  text-align: center;
+  margin-right: 20px;
+  background-image: linear-gradient(310deg,#ff0000, #e4431bbf);
+  box-shadow: 1px 0 9px 5px #ffa800ed;
 }
 
-.services-item-1 {
-  background-image: url('../servis/автокредит.jpg');
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 0;
-  height: 150px;
-  width: 400px;
-  outline: 1px solid rgba(0, 0, 0, 0.152);
-}
-
-.services-item-2 {
-  background-image: url('../servis/ипотека.jpg');
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 0;
-  height: 150px;
-  width: 400px;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
-}
-
-.services-item-3 {
-  background-image: url('../servis/потреительский кредит.jpg');
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 0;
-  height: 150px;
-  width: 400px;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
-}
-
-.services-item-4 {
-  background-image: url('../servis/рефинансирование.jpg');
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 0;
-  height: 150px;
-  width: 400px;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
-}
-
-.services-item-5 {
-  background-image: url('../servis/микрозайм.jpg');
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  margin: 0;
-  height: 150px;
-  width: 400px;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
-}
-
-.servis-right {
-  margin-bottom: 10px;
-}
-
-.services-item-center {
-  display: flex;
-  width: 400px;
-  margin-left: 350px;
-  min-height: 250px;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  background-repeat: no-repeat;
-  border-radius: 15px;
-  background-color: #fff;
-  outline: 1px solid rgba(0, 0, 0, 0.156);
+.pow-p {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: .2rem;
+  font-weight: 600;
 }
