@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заявка на кредит</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .row {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .label {
+            width: 200px;
+            color: #666;
+            flex-shrink: 0;
+        }
+
+        .value {
+            color: #333;
+            margin-left: 15px;
+        }
+
+        .indented {
+            margin-left: 215px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 25px 0 15px;
+        }
+
+        .checkbox-row {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+            width: 18px;
+            height: 18px;
+        }
+
+        .continue-btn {
+            background: #0054B9;
+            color: white;
+            padding: 12px 35px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Заявка на кредит</h1>
+    
+    <div class="section">
+        <div class="row">
+            <div class="label">Цель кредита</div>
+            <div class="value">Покупка подержанного авто...</div>
+        </div>
+        
+        <div class="row">
+            <div class="label">Сумма личных средств</div>
+            <div class="value">0</div>
+        </div>
+        
+        <div class="row">
+            <div class="label">Сумма кредита</div>
+            <div class="value">500 000</div>
+        </div>
+        
+        <div class="row">
+            <div class="label">Марка автомобиля</div>
+            <div class="value">Любая</div>
+        </div>
+        
+        <div class="row">
+            <div class="label">Город получения кредита</div>
+            <div class="value">Орел</div>
+        </div>
+    </div>
+
+    <h2>Контактные данные</h2>
+    
+    <div class="section">
+        <div class="row">
+            <div class="label">ФИО</div>
+            <div class="value">Гнеушев Александр Николаевич</div>
+        </div>
+        
+        <div class="checkbox-row indented">
+            <input type="checkbox" id="patronymic" disabled>
+            <label for="patronymic">Отчество отсутствует</label>
+        </div>
+        
+        <div class="row">
+            <div class="label">Электронная почта</div>
+            <div class="value">gneushev.00@bk.ru</div>
+        </div>
+        
+        <div class="row">
+            <div class="label">Номер телефона</div>
+            <div class="value">+7 (920) 821-89-78</div>
+        </div>
+        
+        <div class="checkbox-row">
+            <input type="checkbox" id="agreement" checked disabled>
+            <label for="agreement">При входе вы даете согласие на обработку данных и рекламу</label>
+        </div>
+    </div>
+
+    <button class="continue-btn">Продолжить</button>
+</body>
+</html>
